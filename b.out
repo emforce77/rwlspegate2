@@ -1,0 +1,128 @@
+scheme : pcqm4mv2
+model_name : egt_47m
+distributed : False
+random_seed : None
+num_epochs : 1000
+save_path : models/pcqm4mv2/egt_47m
+checkpoint_path : models/pcqm4mv2/egt_47m/checkpoint
+config_path : models/pcqm4mv2/egt_47m/config
+summary_path : models/pcqm4mv2/egt_47m/summary
+log_path : models/pcqm4mv2/egt_47m/logs
+validation_frequency : 1
+batch_size : 32
+optimizer : Adam
+max_lr : 0.0001
+clip_grad_value : None
+optimizer_params : {}
+dataloader_workers : 1
+dataloader_mp_context : forkserver
+training_type : normal
+evaluation_type : validation
+predictions_path : models/pcqm4mv2/egt_47m/predictions
+grad_accum_steps : 1
+prediction_bmult : 1
+state_file : None
+predict_on : ['val', 'test']
+evaluate_on : ['val', 'test']
+cache_dir : cache_data
+dataset_name : pcqm4mv2
+dataset_path : cache_data/PCQM4MV2
+model_height : 18
+node_width : 640
+edge_width : 64
+num_heads : 32
+node_dropout : 0.0
+edge_dropout : 0.0
+node_ffn_dropout : 0.0
+edge_ffn_dropout : 0.0
+attn_dropout : 0.3
+attn_maskout : 0.0
+activation : elu
+clip_logits_value : [-5, 5]
+scale_degree : True
+node_ffn_multiplier : 1.0
+edge_ffn_multiplier : 1.0
+allocate_max_batch : True
+scale_dot_product : True
+egt_simple : False
+verbose_lr_log : True
+lr_warmup_steps : 200000
+lr_total_steps : 1000000
+min_lr : 1e-06
+cosine_halfwave : False
+num_virtual_nodes : 4
+upto_hop : 16
+svd_calculated_dim : 32
+svd_output_dim : 32
+svd_random_neg : False
+pretrained_weights_file : None
+Allocating cache for max batch size...
+Trying to load training cache from disk...
+training cache does not exist! Cacheing...
+Calculating training max nodes...
+training SVD encodings cache does not exist! Cacheing...
+Calculating all training SVD encodings...
+scheme : pcqm4mv2
+model_name : egt_47m
+distributed : False
+random_seed : None
+num_epochs : 1000
+save_path : models/pcqm4mv2/egt_47m
+checkpoint_path : models/pcqm4mv2/egt_47m/checkpoint
+config_path : models/pcqm4mv2/egt_47m/config
+summary_path : models/pcqm4mv2/egt_47m/summary
+log_path : models/pcqm4mv2/egt_47m/logs
+validation_frequency : 1
+batch_size : 4
+optimizer : Adam
+max_lr : 0.0001
+clip_grad_value : None
+optimizer_params : {}
+dataloader_workers : 1
+dataloader_mp_context : forkserver
+training_type : normal
+evaluation_type : validation
+predictions_path : models/pcqm4mv2/egt_47m/predictions
+grad_accum_steps : 1
+prediction_bmult : 1
+state_file : None
+predict_on : ['val', 'test']
+evaluate_on : ['val', 'test']
+cache_dir : cache_data
+dataset_name : pcqm4mv2
+dataset_path : cache_data/PCQM4MV2
+model_height : 18
+node_width : 640
+edge_width : 64
+num_heads : 32
+node_dropout : 0.0
+edge_dropout : 0.0
+node_ffn_dropout : 0.0
+edge_ffn_dropout : 0.0
+attn_dropout : 0.3
+attn_maskout : 0.0
+activation : elu
+clip_logits_value : [-5, 5]
+scale_degree : True
+node_ffn_multiplier : 1.0
+edge_ffn_multiplier : 1.0
+allocate_max_batch : True
+scale_dot_product : True
+egt_simple : False
+verbose_lr_log : True
+lr_warmup_steps : 200000
+lr_total_steps : 1000000
+min_lr : 1e-06
+cosine_halfwave : False
+num_virtual_nodes : 4
+upto_hop : 16
+svd_calculated_dim : 32
+svd_output_dim : 32
+svd_random_neg : False
+pretrained_weights_file : None
+Allocating cache for max batch size...
+Trying to load training cache from disk...
+training cache does not exist! Cacheing...
+Calculating training max nodes...
+training SVD encodings cache does not exist! Cacheing...
+Calculating all training SVD encodings...
