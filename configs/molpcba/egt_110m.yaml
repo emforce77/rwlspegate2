@@ -17,6 +17,9 @@ upto_hop: 16
 dataloader_workers: 1      # For multi-process data fetch
 scale_degree: true
 num_virtual_nodes: 4
-svd_random_neg: true
+svd_random_neg: false
+svd_calculated_dim : 32
+svd_output_dim : 32
 pretrained_weights_file: models/pcqm4mv2/egt_110m/checkpoint/model_state
-                           # ^ For transfer learning from PCQM4Mv2
+                          # ^ For transfer learning from PCQM4Mv2
+       
