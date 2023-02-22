@@ -1,4 +1,4 @@
-name: suff
+name: base
 channels:
   - defaults
 dependencies:
