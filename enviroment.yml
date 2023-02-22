@@ -126,4 +126,3 @@ dependencies:
   - yaml=0.2.5=h7b6447c_0
   - yarl=1.8.1=py310h5eee18b_0
   - zlib=1.2.13=h5eee18b_0
-prefix: /mlainas/data2/anaconda3/envs/keras
