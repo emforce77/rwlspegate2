@@ -1,5 +1,5 @@
 
-# EGT + LSPE + RWPE + HIERA
+# SPEGT
 
 
 ## Framework
@@ -11,7 +11,7 @@ A detailed description can be found through the link. <https://github.com/emforc
 
 Dataset       | #layers | #params | Metric         | Valid           | Test           |
 --------------|---------|---------|----------------|-----------------|----------------|
-PCQM4M-V2     | 24      | 90.1M   | MAE            | 0.0863          |                |
+PCQM4M-V2     | 24      | 90.1M   | MAE            | 0.0863          | 0.0868         |
 
 
 ## Requirements
