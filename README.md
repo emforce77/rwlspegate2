@@ -43,3 +43,7 @@ python do_evaluations.py configs/pcqm4mv2/egt_90m.yaml
 
 The Anaconda environment in which the experiments were conducted is specified in the `environment.yml` file.
 
+## Acknowledgements
+Our overall experimental pipeline is based on EGT, MPGNNs-LSPE repository. For baseline construction. We appreciate the authors who Hussain et al. and Dwivedi et al. for sharing their code.
+
+
